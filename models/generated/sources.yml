@@ -1,0 +1,10 @@
+version: 2
+sources:
+- name: test
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_custom_test1
+  - name: _airbyte_raw_custom_test2
